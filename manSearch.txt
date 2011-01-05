@@ -1,0 +1,15 @@
+#definicion
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/">
+#nombre
+<ShortName>man</ShortName>
+#comentario
+<Description>man pages desde UNIXhelp for Users</Description>
+#codificacion
+<InputEncoding>ISO-8859-1</InputEncoding>
+#imagen para icono, codificado con el comando base64(1)
+<Image width="16" height="16">data:image/x-icon;base64,AAABAAEAExMQAAEABACYAQAAFgAAACgAAAATAAAAJgAAAAEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKsD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARERAAAAAAAAAAABEREREQAAAAAAAAARERERERAAAAAAAAERAAAAAAEAAAAAABERAAAAAAEQAAAAABEQAAEAABEQAAAAAREQABEQABERAAAAAREQABEQABERAAAAAREQABEQABERAAAAAREQABEQABERAAAAAREQABEQABERAAAAABEQABEQABEQAAAAABEQABEQABEQAAAAAAEAABEAABEAAAAAAAARERERERAAAAAAAAABEREREQAAAAAAAAAAARERAAAAAAAAAAAAAAAAAAAAAAAA/g/gAPAB4ADgAOAAwABgAIAAIACAACAAgAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAgAIAAIACAACAAwABgAOAA4ADwAeAA/g/gAA==</Image>
+#liga de busqueda
+#    como no tiene parametros es solo una linea y donde usa searchTerms es la palabra a buscar
+<Url type="text/html" method="GET" template="http://unixhelp.ed.ac.uk/CGI/man-cgi?{searchTerms}"/>
+<SearchForm></SearchForm>
+</SearchPlugin>

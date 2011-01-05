@@ -1,0 +1,21 @@
+manSearch.xml
+============
+
+Configura un nuevo motor para la barra de busqueda en firefox.
+Este motor realiza la consulta para localizar la documentacion 'man' del 
+comando especificado desde el sitio 'UNIXhelp for Users' 
+<http://unixhelp.ed.ac.uk/index.html>
+
+instalacion
+-----------
+$ mkdir ~/.mozilla/searchplugins/
+$ mv manSearch.xml ~/.mozilla/searchplugins/
+
+todo
+----
+* instalador automatico
+* subirlo a mozilla
+
+<petrohs@gmail.com>
+2011/01/05
+
