@@ -1,0 +1,10 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<ShortName>PGPkeySearch</ShortName>
+<Description>search pgp keys by pgp.mit.edu</Description>
+<InputEncoding>ISO-8859-1</InputEncoding>
+<Image width="16" height="16">data:image/x-icon;base64,AAABAAEACxAAAAEAIAAoAwAAFgAAACgAAAALAAAAIAAAAAEAIAAAAAAAwAIAABILAAASCwAAAAAAAAAAAADv7+//ycnJ/8DAwP+YmJj/pKSk/7S0tP/T09P/z8/P/9zc3P/n5+f/u7u7/8PDw/+Kior/jo6O/2lpaf+Hh4f/mpqa/8zMzP/f39//vLy8/8LCwv9cXFz/u7u7/xwcHP8vLy//aWlp/2lpaf9QUFD/VVVV/6enp/+jo6P/EBAQ/z09Pf+2trb/W1tb/29vb/9SUlL/UlJS/35+fv98fHz/SUlJ/9DQ0P+Ghob/VFRU/8LCwv+ZmZn/hoaG/0ZGRv9gYGD/kpKS/4SEhP9TU1P/qqqq/9zc3P9tbW3/vb29/yAgIP84ODj/cXFx/2pqav92dnb/a2tr/4qKiv+7u7v/Li4u/zw8PP+wsLD/R0dH/0xMTP9oaGj/fn5+/2dnZ/+Pj4//09PT/5eXl/9TU1P/T09P/7S0tP+goKD/lpaW/4aGhv+Ojo7/nZ2d/7i4uP/IyMj/0NDQ//Dw8P9wcHD/09PT/7CwsP+JiYn/qKio/5eXl/+wsLD/t7e3/8DAwP+6urr/i4uL/5iYmP/19fX/y8vL/3l5ef+Kior/wMDA/8vLy//ExMT/tbW1/7m5uf91dXX/s7Oz///////V1dX/fHx8/8HBwf///////f39////////////ysrK/4SEhP/Ly8v//////9jY2P+Ghob/tbW1///////4+Pj/+/v7//n5+f/IyMj/goKC/8vLy///////2dnZ/6Wlpf97e3v///////z8/P//////29vb/7m5uf9ubm7/6urq///////v7+//tLS0/2xsbP98fHz/y8vL/7a2tv+Tk5P/fX19/5SUlP///////v7+///////a2tr/nZ2d/3d3d/9paWn/dnZ2/3p6ev+JiYn/+Pj4/////////////v7+///////s7Oz/vr6+/6SkpP+lpaX/w8PD//v7+//+/v7//////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</Image>
+<Url type="text/html" method="GET" template="http://pgp.mit.edu:11371/pks/lookup?search={searchTerms}&#38;fingerprint=on"/>
+<moz:SearchForm></moz:SearchForm>
+</OpenSearchDescription>
+
